@@ -1,14 +1,13 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Itdotaer
+email:       itdotaer@163.com
+author:      Harry Hu
+description: "一个以分享个人技术和生活为主的博客."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://itdotaer.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.html
 
 # Google services
 google_verification:
