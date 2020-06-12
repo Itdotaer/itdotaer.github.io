@@ -17,6 +17,8 @@ google_analytics:
 google_tag_manager:
 # Bing services
 bing_verification:
+# Baidu services(百度统计编码)
+baidu_analytics: "a249ce449d6d2298d1079e0f6a06dde0"
 
 # Optional features
 animated:             false
