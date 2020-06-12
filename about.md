@@ -5,4 +5,4 @@ permalink: /about/
 tags: about
 ---
 
-关于测试
+![image](/images/me.jpeg)
