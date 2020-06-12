@@ -47,7 +47,7 @@ facebook_comments:
 facebook_appid:
 facebook_comments_number: 10
 
-# gitalk
+# gitalk comments plugin
 gitalk:
   client_id: "f596721c3b8a86220649"
   client_secret: "9348774f846243cd15d67f8e4fb4ec111f669084"
