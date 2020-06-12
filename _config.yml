@@ -1,7 +1,7 @@
 # Site settings
-title:       Itdotaer's blog
-email:       itdotaer@163.com
-author:      Harry Hu
+title:       "Itdotaer's blog"
+email:       "itdotaer@163.com"
+author:      "Harry Hu"
 description: "一个以分享个人技术和生活为主的博客."
 baseurl:     ""
 url:         "http://itdotaer.github.io"
@@ -20,9 +20,9 @@ bing_verification:
 
 # Optional features
 animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -46,7 +46,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: 'itdotaer'
+github_username: "itdotaer"
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
