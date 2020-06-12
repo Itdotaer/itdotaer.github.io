@@ -1,11 +1,11 @@
 # Site settings
-title:       Itdotaer
+title:       Itdotaer's blog
 email:       itdotaer@163.com
 author:      Harry Hu
 description: "一个以分享个人技术和生活为主的博客."
 baseurl:     ""
 url:         "http://itdotaer.github.io"
-date_format: "%b %-d, %Y"
+date_format: "%Y年%m月%d日"
 header_pages:
  - about.md
 
@@ -46,7 +46,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: 'itdotaer'
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
@@ -92,11 +92,11 @@ text:
     stumbleupon:  'Share on StumbleUpon'
     hackernews:   'Share on Hacker News'
   post:
-    updated:        'Updated'
+    updated:        '更新'
     minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    related_posts:  '关联的博文'
   index:
-    coming_soon: 'Coming soon...'
+    coming_soon: '很快回来...'
   contact:
     email:    'Email Address'
     content:  'What would you like to say?'
