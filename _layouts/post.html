@@ -53,6 +53,22 @@ layout: default
 {% if site.facebook_comments %}
   <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
 {% endif %}
+{% if site.gitalk %}
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.client_id}}',
+    clientSecret: '{{site.gitalk.client_secret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.author}}',
+    admin: ['{{site.author}}'],
+    id: '{{ page.url | truncate: 50, '' }}',      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+{% endif %}
 
 {% if site.show_related_posts %}
   <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Related Posts" }}</h3>

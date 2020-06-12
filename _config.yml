@@ -1,7 +1,7 @@
 # Site settings
 title:       "Itdotaer's blog"
 email:       "itdotaer@163.com"
-author:      "Harry Hu"
+author:      "Itdotaer"
 description: "一个以分享个人技术和生活为主的博客."
 baseurl:     ""
 url:         "http://itdotaer.github.io"
@@ -47,6 +47,12 @@ facebook_comments:
 facebook_appid:
 facebook_comments_number: 10
 
+# gitalk
+gitalk:
+  client_id: "f596721c3b8a86220649"
+  client_secret: "9348774f846243cd15d67f8e4fb4ec111f669084"
+  repo: "itdotaer.github.io"
+
 # Social icons
 github_username: "itdotaer"
 reddit_username:
@@ -66,12 +72,12 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
-share_facebook: true
-share_twitter: true
-share_googleplus: true
-share_linkedin: true
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
 share_digg: false
 share_tumblr: false
 share_reddit: false
